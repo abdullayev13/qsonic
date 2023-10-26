@@ -54,7 +54,7 @@ func ReplaceAll(path string) {
 
 	//output := strings.ReplaceAll(string(input), customJsonPkg, standsJsonPkg)
 	//output = strings.ReplaceAll(output, go_shafaqPkg, bytedancePkg)
-	output := strings.ReplaceAll(string(input), `bytedance/sonic`, `go-shafaq/sonic`)
+	output := strings.ReplaceAll(string(input), `bytedance∕sonic`, `abdullayev13/qsonic`)
 	err = ioutil.WriteFile(path, []byte(output), 0644)
 	if err != nil {
 		panic(err)
